@@ -11,7 +11,7 @@
 
 - 📝 I regularly write articles on [https://maxprogammer007.wordpress.com/](https://maxprogammer007.wordpress.com/)
 
-- 📫 How to reach me **AbhinavCSVTU007@gmail.com**
+- 📫 How to reach me **Student2.ai@csvtu.ac.in**
 
 - ⚡ Fun fact **I use ARCH btw !!**
 
