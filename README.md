@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Abhinav Shukla</h1>
+<marquee> <h1 align="center">Hi 👋, I'm Abhinav Shukla</h1> </marquee>
 <h3 align="center">A passionate CS undergrad.</h3>
 <img align = "right" width"400" src=140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif>
 
@@ -6,9 +6,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=maxprogrammer007&label=Profile%20views&color=0e75b6&style=flat" alt="maxprogrammer007" /> </p>
 
 ###
-
-
-\
 <p align="left"><img src="https://github-profile-trophy.vercel.app/?username=maxprogrammer007&theme=matrix" alt="maxprogrammer007" /></a> </p>
 
 - 🔭 I’m currently pursuing B.Tech(H) in CSE ( AI ) from **UTD, CSVTU Bhilai**
