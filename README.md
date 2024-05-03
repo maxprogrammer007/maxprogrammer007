@@ -1,4 +1,5 @@
-<marquee> <h1 align="center">Hi 👋, I'm Abhinav Shukla</h1> </marquee>
+## 
+<img src="https://readme-typing-svg.demolab.com?font=Operator+Mono&size=37&duration=2800&pause=2000&color=FAFAFA&center=true&vCenter=true&width=940&height=50&lines=Hey%2C+I'm+Abhinav+Welcome+to+my+Github+Profile!" align="middle" alt="Hey, I'm Abhinav Welcome to my Profile! animated typed out">
 <h3 align="center">A passionate CS undergrad.</h3>
 <img align = "right" width"400" src=140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif>
 
