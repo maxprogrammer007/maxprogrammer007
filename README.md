@@ -42,5 +42,5 @@
 ###
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=maxprogrammer007&radius=16&theme=github-dark&area=true&order=5&hide_border=true" height="300" alt="activity-graph graph"  />
 
-  <a href="https://gitroll.io/profile/u1yXXHGAnNDZHfSjTgnKcfUyIGa43" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/u1yXXHGAnNDZHfSjTgnKcfUyIGa43" alt="GitRoll Profile Badge"/></a>
+  <a href="https://gitroll.io/profile/u1yXXHGAnNDZHfSjTgnKcfUyIGa43" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/u1yXXHGAnNDZHfSjTgnKcfUyIGa43?theme=github-dark&area=true&order=5&hide_border=true" height="300" alt="GitRoll Profile Badge"/></a>
 </div>
