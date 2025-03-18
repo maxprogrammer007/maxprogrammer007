@@ -1,6 +1,3 @@
-Here’s a more **polished and visually optimized version** of your GitHub profile README with better spacing, alignment, and sectioning:
-
----
 
 ## 🎯 **Welcome to My GitHub Profile!**
 <div align="center">
@@ -105,6 +102,3 @@ Here’s a more **polished and visually optimized version** of your GitHub profi
   </a>
 </div>
 
----
-
-✅ **Now your profile is well-structured, visually appealing, and ready to grab attention!** 🚀
