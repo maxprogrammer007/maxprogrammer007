@@ -1,5 +1,5 @@
 
-## 🎯 **Welcome to My GitHub Profile!**
+
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Operator+Mono&size=37&duration=2800&pause=2000&color=FAFAFA&center=true&vCenter=true&width=940&height=50&lines=Hey%2C+I'm+Abhinav+Welcome+to+my+Github+Profile!" alt="Hey, I'm Abhinav!" />
   <h3>An AI/ML guy !!</h3>
