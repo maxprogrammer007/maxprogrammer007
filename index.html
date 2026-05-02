@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -599,8 +598,9 @@
   }
 
   /* ANIMATIONS */
-  .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
-  .fade-in.visible { opacity: 1; transform: translateY(0); }
+  .fade-in { opacity: 1; transform: translateY(0); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .fade-in.hidden { opacity: 0; transform: translateY(30px); }
+  .fade-in.animate-in { opacity: 1; transform: translateY(0); }
 
   @media (max-width: 900px) {
     nav { padding: 16px 24px; }
@@ -638,6 +638,7 @@
     <li><a href="#projects">Projects</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#publications">Research</a></li>
+    <li><a href="#services">Services</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -659,8 +660,8 @@
     </h1>
     <p class="hero-desc">
       B.Tech CSE (AI) @ <span class="hl">CSVTU Bhilai</span> · Research Intern @
-      <span class="hl">ISI Kolkata</span> + <span class="hl">IIIT-H MLL</span> + <span class="hl">Univ. of Salford</span><br>
-      Building at the intersection of <span class="hl">Computer Vision</span>, <span class="hl">Explainable AI</span>, and <span class="hl">High-Performance Systems</span>.
+      <span class="hl">ISI Kolkata CVPR</span> + <span class="hl">IIIT-H MLL</span> · <span class="hl">NeurIPS 2026</span> + <span class="hl">ICDAR 2026</span> submissions<br>
+      Building at the intersection of <span class="hl">3D Computer Vision</span>, <span class="hl">Explainable AI</span>, and <span class="hl">Machine Unlearning</span>.
     </p>
     <div class="hero-cta">
       <a href="#projects" class="btn-primary">View Projects</a>
@@ -670,7 +671,7 @@
 
   <div class="hero-stats">
     <div class="stat-item">
-      <div class="stat-num">150K+</div>
+      <div class="stat-num">200K+</div>
       <div class="stat-label">PyPI Downloads</div>
     </div>
     <div class="stat-item">
@@ -682,8 +683,8 @@
       <div class="stat-label">Workshops Organized</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">1</div>
-      <div class="stat-label">ICLR Submission</div>
+      <div class="stat-num">4</div>
+      <div class="stat-label">Papers Submitted</div>
     </div>
   </div>
 </section>
@@ -701,8 +702,8 @@
       </div>
       <div class="exp-body">
         <div class="exp-org">Machine Learning Lab, IIIT Hyderabad</div>
-        <div class="exp-role">Research Intern</div>
-        <div class="exp-desc">Active research at one of India's premier AI research labs, working on cutting-edge ML problems.</div>
+        <div class="exp-role">Research Intern · 3D Computer Vision · Dr. Charu Sharma</div>
+        <div class="exp-desc">Conducting research in 3D Computer Vision at one of India's premier AI research labs under Dr. Charu Sharma.</div>
       </div>
     </div>
 
@@ -726,7 +727,7 @@
       <div class="exp-body">
         <div class="exp-org">Indian Statistical Institute, Kolkata</div>
         <div class="exp-role">AI/ML Research Intern · CVPR Unit</div>
-        <div class="exp-desc">Conducting research under Dr. Umapada Pal (IAPR Fellow) at the prestigious CVPR unit. Focus on computer vision and pattern recognition.</div>
+        <div class="exp-desc">Conducting research under Dr. Umapada Pal (IAPR Fellow) and Dr. Shivakumara P. (Univ. of Salford, UK). Resulted in an ICDAR 2026 submission on scene text spotting.</div>
       </div>
     </div>
 
@@ -777,9 +778,9 @@
 
     <div class="project-card fade-in">
       <div class="project-idx">PROJECT_001</div>
-      <div class="project-badge">150K+ Downloads</div>
+      <div class="project-badge">200K+ Downloads</div>
       <div class="project-name">Annie — Rust-Powered ANN Library</div>
-      <div class="project-desc">Lightning-fast Approximate Nearest Neighbor search library for Python. SIMD-accelerated brute-force, HNSW indexing, GPU acceleration, zero-copy NumPy integration.</div>
+      <div class="project-desc">Lightning-fast Approximate Nearest Neighbor search library for Python. SIMD-accelerated brute-force, HNSW indexing, GPU acceleration, zero-copy NumPy integration. 200K+ PyPI downloads.</div>
       <div class="project-tags">
         <span class="tag">Rust</span><span class="tag cyan">SIMD</span><span class="tag">HNSW</span><span class="tag plasma">GPU</span><span class="tag">PyPI</span>
       </div>
@@ -850,9 +851,36 @@
 
     <div class="pub-item fade-in">
       <div>
-        <span class="pub-venue">ICLR 2026</span>
-        <div class="pub-title">Explainability-Driven Layer-wise Pruning of Deep Neural Networks for Efficient Object Detection</div>
-        <div class="pub-desc">Novel SHAP-based pruning framework for deep networks achieving superior accuracy–efficiency trade-offs for object detection tasks in resource-constrained environments.</div>
+        <span class="pub-venue">NeurIPS 2026 · #9372</span>
+        <div class="pub-title">Taylor-Made Sparsity: First-Order Approximation for Structural Pruning in Object Detectors</div>
+        <div class="pub-desc">Structural pruning framework leveraging first-order Taylor approximations for efficient object detection. Co-authored with Shefali Bajaj &amp; Nachiket Tapas.</div>
+      </div>
+      <span class="pub-status status-review">Under Review</span>
+    </div>
+
+    <div class="pub-item fade-in">
+      <div>
+        <span class="pub-venue">NeurIPS 2026 · #11046</span>
+        <div class="pub-title">Selective Unlearning in Multi-Agent Deep Deterministic Policy Gradient</div>
+        <div class="pub-desc">Machine unlearning in multi-agent reinforcement learning via selective forgetting in MADDPG. Co-authored with Anoushka Chatterjee, Faiz Ali &amp; Nachiket Tapas.</div>
+      </div>
+      <span class="pub-status status-review">Under Review</span>
+    </div>
+
+    <div class="pub-item fade-in">
+      <div>
+        <span class="pub-venue">ICDAR 2026</span>
+        <div class="pub-title">Reliability-Weighted Semi-Supervised End-to-End Approach for Scene Text Spotting</div>
+        <div class="pub-desc">Developed during research at ISI Kolkata CVPR Unit under Dr. Umapada Pal and Dr. Shivakumara P. Advances robust scene text spotting under semi-supervised settings.</div>
+      </div>
+      <span class="pub-status status-review">Under Review</span>
+    </div>
+
+    <div class="pub-item fade-in">
+      <div>
+        <span class="pub-venue">ICDAR 2026 · arXiv:2602.14040</span>
+        <div class="pub-title">Explainability-Inspired Layer-Wise Pruning of Deep Neural Networks for Efficient Object Detection</div>
+        <div class="pub-desc">Novel SHAP-based pruning framework achieving superior accuracy–efficiency trade-offs for object detection in resource-constrained environments.</div>
       </div>
       <span class="pub-status status-review">Under Review</span>
     </div>
@@ -869,9 +897,42 @@
   </div>
 </section>
 
+<!-- ACADEMIC SERVICES -->
+<section id="services" style="padding: 80px 60px;">
+  <div class="section-label">04 // Academic Services</div>
+  <h2>Peer Review &amp; <br>Community</h2>
+  <div class="exp-grid">
+
+    <div class="exp-item fade-in">
+      <div class="exp-period">
+        <div class="exp-year">JAN 2026 — Present</div>
+        <div class="exp-type">Reviewer</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-org">Springer Nature Computer Science</div>
+        <div class="exp-role">Peer Reviewer · Impact Factor: 2.185</div>
+        <div class="exp-desc">Peer-reviewing manuscripts in Artificial Intelligence, Computer Vision, and Machine Learning.</div>
+      </div>
+    </div>
+
+    <div class="exp-item fade-in">
+      <div class="exp-period">
+        <div class="exp-year">JAN 2026 — Present</div>
+        <div class="exp-type">Reviewer</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-org">Artificial Intelligence &amp; Applications (AIA)</div>
+        <div class="exp-role">Peer Reviewer · BonView Press · Impact Factor: 9.375</div>
+        <div class="exp-desc">Peer-reviewing manuscripts in core AI and applications domains.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- SKILLS -->
 <section id="skills">
-  <div class="section-label">04 // Capabilities</div>
+  <div class="section-label">05 // Capabilities</div>
   <h2>Technical <br>Arsenal</h2>
   <div class="skills-container">
 
@@ -932,11 +993,11 @@
 <!-- ABOUT (Terminal) -->
 <section id="about" style="padding: 120px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start;">
   <div>
-    <div class="section-label">05 // About</div>
+    <div class="section-label">06 // About</div>
     <h2>The Human <br>Behind The Code</h2>
     <p class="about-text">
-      Started programming in 3rd grade. Now building research at ISI Kolkata, IIIT-H, and University of Salford simultaneously — as a 2nd year undergrad.<br><br>
-      President of Chhattisgarh's most active coding club. Founder of Annie (150K+ downloads). Rank 19 at International Informatics Olympiad 2019.<br><br>
+      Started programming in 3rd grade. Now conducting research at ISI Kolkata, IIIT-H MLL, and University of Salford simultaneously — as a 2nd year undergrad.<br><br>
+      President of Chhattisgarh's most active coding club. Creator of Annie (200K+ downloads). Reviewer for Springer Nature and AIA (IF: 9.375). Rank 19 at International Informatics Olympiad 2019.<br><br>
       NASA Citizen Scientist. HackerRank 5-Star. Always building, always publishing.
     </p>
     <div class="cert-grid">
@@ -967,8 +1028,8 @@
       <div class="t-output">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-hl">"IIIT-H MLL"</span>,</div>
       <div class="t-output">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-hl">"Univ. of Salford"</span></div>
       <div class="t-output">&nbsp;&nbsp;],</div>
-      <div class="t-output">&nbsp;&nbsp;"papers": <span class="t-cyan">1</span>,</div>
-      <div class="t-output">&nbsp;&nbsp;"downloads": <span class="t-plasma">"150K+"</span></div>
+      <div class="t-output">&nbsp;&nbsp;"papers": <span class="t-cyan">4</span>,</div>
+      <div class="t-output">&nbsp;&nbsp;"downloads": <span class="t-plasma">"200K+"</span></div>
       <div class="t-output">}</div>
       <br>
       <div><span class="t-prompt">❯ </span><span class="t-cmd">ls interests/</span></div>
@@ -985,11 +1046,11 @@
 
 <!-- CONTACT -->
 <section id="contact">
-  <div class="section-label" style="justify-content: center;">06 // Contact</div>
+  <div class="section-label" style="justify-content: center;">07 // Contact</div>
   <h2>Let's Build<br>Something Extraordinary</h2>
   <p class="contact-sub">Open to research collaborations, internships, and interesting problems.</p>
   <div class="contact-links">
-    <a href="mailto:abhinavcsvtu@gmail.com" class="contact-link">
+    <a href="/cdn-cgi/l/email-protection#7c1d1e1415121d0a1f0f0a08093c1b111d1510521f1311" class="contact-link">
       <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
       Email Me
     </a>
@@ -1014,7 +1075,7 @@
   <div class="footer-text">Built with <span>precision</span> · Powered by <span>curiosity</span></div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   // CURSOR
   const cursor = document.getElementById('cursor');
   const ring = document.getElementById('cursorRing');
@@ -1053,17 +1114,34 @@
     });
   });
 
-  // FADE IN ON SCROLL
+  // FADE IN ON SCROLL — add hidden first, then reveal
+  const allFadeEls = document.querySelectorAll('.fade-in');
+  // Stagger delay first
+  allFadeEls.forEach((el, i) => { el.style.transitionDelay = (i % 6) * 80 + 'ms'; });
+
   const observer = new IntersectionObserver(entries => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-  }, { threshold: 0.1 });
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.remove('hidden');
+        e.target.classList.add('animate-in');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.05, rootMargin: '0px 0px -40px 0px' });
 
-  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-
-  // STAGGER FADE-INS
-  document.querySelectorAll('.exp-item, .project-card, .skill-group, .pub-item, .cert-item').forEach((el, i) => {
-    el.style.transitionDelay = (i % 6) * 80 + 'ms';
-  });
+  // Small delay so layout settles, then add hidden + observe
+  setTimeout(() => {
+    allFadeEls.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight) {
+        // Already in view on load — just animate in immediately
+        el.style.transitionDelay = '0ms';
+      } else {
+        el.classList.add('hidden');
+        observer.observe(el);
+      }
+    });
+  }, 50);
 </script>
 </body>
 </html>
